@@ -1,0 +1,30 @@
+{
+  "latest_version": "25.0.7",
+  "version": "25.0.7",
+  "installer_url": "https://github.com/NexVandal/GlobalTrack_Update/releases/download/v25.0.7/Global_Gestion_Setup_25.0.7.exe",
+  "asset_type": "installer_exe",
+  "installer_size": 112613636,
+  "sha256": "8956d471a0073f1f1465c167c4ace5a8c1234f599e6e66c63320266394cba84f",
+  "mandatory": false,
+  "published_at": "2026-10-10T21:11:13.553204+00:00",
+  "changelog": [
+    "Première version de Global Gestion pour GLOBAL TRACK SECURITY : Stock, Vente, Prêt, RMA, Suivi commande et Suivi achat, avec les mêmes écrans et les mêmes parcours que la version 25.0.7.",
+    "Logo et nom GLOBAL TRACK SECURITY dans l'application, la page de connexion, l'icône du programme et le guide d'utilisation.",
+    "Bons de prêt, de retour RMA et de remplacement RMA : logo GT SECURITY, adresse de retour à Cocody Angré, pied de page avec téléphone, e-mail, RCCM et IDU ; le QR code de chaque bon ouvre toujours son dossier.",
+    "Fiches d'installation, plans de raccordement et étiquettes carton aux couleurs de GT SECURITY ; les nouveaux codes matériel commencent par GT-STOCK.",
+    "E-mails envoyés par le logiciel (identifiants, mot de passe temporaire, test d'envoi) au nom de GLOBAL TRACK SECURITY.",
+    "Installateur Global_Gestion_Setup_25.0.7.exe : installation dans C:\\Global Gestion, possible à côté de CLYO sur un même PC sans que l'une des deux applications ferme l'autre.",
+    "Mises à jour automatiques depuis le dépôt GlobalTrack_Update ; la publication vers le portail NAS de Clyo est retirée.",
+    "Aucun identifiant Wi-Fi, routeur, Omada ou mot de passe TeamViewer n'est livré par défaut : chaque société saisit les siens dans les réglages."
+  ],
+  "release_notes": [
+    "Première version de Global Gestion pour GLOBAL TRACK SECURITY : Stock, Vente, Prêt, RMA, Suivi commande et Suivi achat, avec les mêmes écrans et les mêmes parcours que la version 25.0.7.",
+    "Logo et nom GLOBAL TRACK SECURITY dans l'application, la page de connexion, l'icône du programme et le guide d'utilisation.",
+    "Bons de prêt, de retour RMA et de remplacement RMA : logo GT SECURITY, adresse de retour à Cocody Angré, pied de page avec téléphone, e-mail, RCCM et IDU ; le QR code de chaque bon ouvre toujours son dossier.",
+    "Fiches d'installation, plans de raccordement et étiquettes carton aux couleurs de GT SECURITY ; les nouveaux codes matériel commencent par GT-STOCK.",
+    "E-mails envoyés par le logiciel (identifiants, mot de passe temporaire, test d'envoi) au nom de GLOBAL TRACK SECURITY.",
+    "Installateur Global_Gestion_Setup_25.0.7.exe : installation dans C:\\Global Gestion, possible à côté de CLYO sur un même PC sans que l'une des deux applications ferme l'autre.",
+    "Mises à jour automatiques depuis le dépôt GlobalTrack_Update ; la publication vers le portail NAS de Clyo est retirée.",
+    "Aucun identifiant Wi-Fi, routeur, Omada ou mot de passe TeamViewer n'est livré par défaut : chaque société saisit les siens dans les réglages."
+  ]
+}
