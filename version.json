@@ -1,34 +1,24 @@
 {
-  "latest_version": "1.0.5",
-  "version": "1.0.5",
-  "installer_url": "https://github.com/NexVandal/GlobalTrack_Update/releases/download/v1.0.5/Global_Gestion_Setup_1.0.5.exe",
+  "latest_version": "1.0.6",
+  "version": "1.0.6",
+  "installer_url": "https://github.com/NexVandal/GlobalTrack_Update/releases/download/v1.0.6/Global_Gestion_Setup_1.0.6.exe",
   "asset_type": "installer_exe",
-  "installer_size": 94143932,
-  "sha256": "e00b4767a8e64e50b3e60946f7b6e6ccb941915e154c499b6069c4a2e6d6ec60",
+  "installer_size": 94143862,
+  "sha256": "729a218bf86f6f7ebe346b95e7d3583462ac35cbceba7b478fc8aa2207fa932f",
   "mandatory": false,
-  "published_at": "2026-11-11T12:11:12.211967+00:00",
+  "published_at": "2026-11-11T19:57:46.339156+00:00",
   "changelog": [
-    "Connexion : après une coupure réseau brève, les écrans réessaient une fois leur lecture avant d'afficher le mode hors ligne. Les actions d'écriture ne sont jamais répétées automatiquement.",
-    "Connexion : quand le serveur GT SECURITY ne répond pas, le logiciel essaie 5 fois puis affiche « Accès indisponible » avec le téléphone et l'adresse e-mail de GT SECURITY, et n'essaie plus (fermer puis rouvrir Global Gestion refait 5 essais). En bas de l'écran, « GT SECURITY · CHIFFRÉE » en vert, ou « GT SECURITY · injoignable » en rouge.",
-    "Tous les postes passent par le serveur Global Gestion (liaison chiffrée, par Radmin) : plus aucun poste ne demande ni ne garde le mot de passe de la base, il est effacé au démarrage. Le serveur peut refuser les versions trop anciennes (« Mise à jour obligatoire »).",
-    "Tickets : la zone de message est limitée à 5 000 caractères, avec un compteur en dessous (jaune à 4 500, rouge à 5 000 avec « limite atteinte ») ; un message plus long n'est plus raccourci sans prévenir.",
-    "Sécurité : une clé de secours du serveur est reconnue par le logiciel, pour pouvoir changer un jour le certificat du serveur sans couper les postes.",
-    "Sécurité : un compte « lecture seule » ne peut plus rien modifier (statut du matériel, fiche client, fiches d'installation) ; il garde la consultation.",
-    "Sécurité : sur le serveur, les pages techniques ouvertes sans connexion sont fermées, et la page d'état ne montre plus la version ni le compte de la base.",
-    "Sécurité : les pages du logiciel n'exécutent plus que ses propres fichiers (un texte piégé ne peut plus lancer de script) ; un texte de rappel s'affiche désormais protégé."
+    "Liaison avec le serveur : plus de « Hors ligne » par moments après une pause. Le poste reprenait parfois une connexion que le serveur avait déjà fermée ; il en ouvre maintenant une neuve.",
+    "Liaison avec le serveur : un clic après une pause répond plus vite, le poste ne tente plus d'abord une connexion déjà fermée.",
+    "Serveur : les réglages TeamViewer se préparent de nouveau au démarrage du serveur (ils échouaient depuis le passage par le serveur)."
   ],
   "release_notes": [
-    "Connexion : après une coupure réseau brève, les écrans réessaient une fois leur lecture avant d'afficher le mode hors ligne. Les actions d'écriture ne sont jamais répétées automatiquement.",
-    "Connexion : quand le serveur GT SECURITY ne répond pas, le logiciel essaie 5 fois puis affiche « Accès indisponible » avec le téléphone et l'adresse e-mail de GT SECURITY, et n'essaie plus (fermer puis rouvrir Global Gestion refait 5 essais). En bas de l'écran, « GT SECURITY · CHIFFRÉE » en vert, ou « GT SECURITY · injoignable » en rouge.",
-    "Tous les postes passent par le serveur Global Gestion (liaison chiffrée, par Radmin) : plus aucun poste ne demande ni ne garde le mot de passe de la base, il est effacé au démarrage. Le serveur peut refuser les versions trop anciennes (« Mise à jour obligatoire »).",
-    "Tickets : la zone de message est limitée à 5 000 caractères, avec un compteur en dessous (jaune à 4 500, rouge à 5 000 avec « limite atteinte ») ; un message plus long n'est plus raccourci sans prévenir.",
-    "Sécurité : une clé de secours du serveur est reconnue par le logiciel, pour pouvoir changer un jour le certificat du serveur sans couper les postes.",
-    "Sécurité : un compte « lecture seule » ne peut plus rien modifier (statut du matériel, fiche client, fiches d'installation) ; il garde la consultation.",
-    "Sécurité : sur le serveur, les pages techniques ouvertes sans connexion sont fermées, et la page d'état ne montre plus la version ni le compte de la base.",
-    "Sécurité : les pages du logiciel n'exécutent plus que ses propres fichiers (un texte piégé ne peut plus lancer de script) ; un texte de rappel s'affiche désormais protégé."
+    "Liaison avec le serveur : plus de « Hors ligne » par moments après une pause. Le poste reprenait parfois une connexion que le serveur avait déjà fermée ; il en ouvre maintenant une neuve.",
+    "Liaison avec le serveur : un clic après une pause répond plus vite, le poste ne tente plus d'abord une connexion déjà fermée.",
+    "Serveur : les réglages TeamViewer se préparent de nouveau au démarrage du serveur (ils échouaient depuis le passage par le serveur)."
   ],
-  "code_url": "https://github.com/NexVandal/GlobalTrack_Update/releases/download/v1.0.5/Global_Gestion_Code_1.0.5.zip",
-  "code_size": 2705608,
-  "code_sha256": "9bac7109b00be0c45fa6cbb75a46828c8f678ffff5b28487013478282cf6baa6",
+  "code_url": "https://github.com/NexVandal/GlobalTrack_Update/releases/download/v1.0.6/Global_Gestion_Code_1.0.6.zip",
+  "code_size": 2706378,
+  "code_sha256": "a6f6499f15c1fd5449c373ee04aefa37126e8c93746a21cf32fb3f39284eab4c",
   "socle": "c04762fe03155c61ac3af16ccbca68be256fca672ac6314ea4f2c3e745402c9c"
 }
