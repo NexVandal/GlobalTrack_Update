@@ -1,24 +1,30 @@
 {
-  "latest_version": "1.0.6",
-  "version": "1.0.6",
-  "installer_url": "https://github.com/NexVandal/GlobalTrack_Update/releases/download/v1.0.6/Global_Gestion_Setup_1.0.6.exe",
+  "latest_version": "1.0.7",
+  "version": "1.0.7",
+  "installer_url": "https://github.com/NexVandal/GlobalTrack_Update/releases/download/v1.0.7/Global_Gestion_Setup_1.0.7.exe",
   "asset_type": "installer_exe",
-  "installer_size": 94143862,
-  "sha256": "729a218bf86f6f7ebe346b95e7d3583462ac35cbceba7b478fc8aa2207fa932f",
+  "installer_size": 94137053,
+  "sha256": "7a88b6a3a862f97800402ce40f2a4ed82db45d200a97f5d01977f61f8282c54e",
   "mandatory": false,
-  "published_at": "2026-11-11T19:57:46.339156+00:00",
+  "published_at": "2026-11-12T10:47:47.042184+00:00",
   "changelog": [
-    "Liaison avec le serveur : plus de « Hors ligne » par moments après une pause. Le poste reprenait parfois une connexion que le serveur avait déjà fermée ; il en ouvre maintenant une neuve.",
-    "Liaison avec le serveur : un clic après une pause répond plus vite, le poste ne tente plus d'abord une connexion déjà fermée.",
-    "Serveur : les réglages TeamViewer se préparent de nouveau au démarrage du serveur (ils échouaient depuis le passage par le serveur)."
+    "Mises à jour. Chaque employé peut installer la nouvelle version sur son PC avec le bouton « Mise à jour » en haut de l’écran ; avant, seul le superadmin le pouvait.",
+    "RH, Comptes et accès. Le bouton « Téléphone » ouvre la fiche même si l’identifiant de l’employé contient des espaces ou des accents.",
+    "Connexion au serveur. Global Gestion affiche la raison donnée par le serveur lorsqu’une action est refusée. Une vérification faite sur le PC seul ne retire plus le bandeau « Hors ligne ».",
+    "Consultations. Si la connexion se coupe brièvement, le logiciel fait un deuxième essai, y compris lorsque le premier essai échoue dès l’ouverture de la connexion.",
+    "Rapidité. Après une pause, Global Gestion reprend sa connexion au serveur au lieu d’en ouvrir une nouvelle : le premier clic répond plus vite.",
+    "Enregistrement. Si la réponse du serveur se perd, Global Gestion ne renvoie pas l’action. Le logiciel invite à vérifier qu’elle a été enregistrée avant de réessayer."
   ],
   "release_notes": [
-    "Liaison avec le serveur : plus de « Hors ligne » par moments après une pause. Le poste reprenait parfois une connexion que le serveur avait déjà fermée ; il en ouvre maintenant une neuve.",
-    "Liaison avec le serveur : un clic après une pause répond plus vite, le poste ne tente plus d'abord une connexion déjà fermée.",
-    "Serveur : les réglages TeamViewer se préparent de nouveau au démarrage du serveur (ils échouaient depuis le passage par le serveur)."
+    "Mises à jour. Chaque employé peut installer la nouvelle version sur son PC avec le bouton « Mise à jour » en haut de l’écran ; avant, seul le superadmin le pouvait.",
+    "RH, Comptes et accès. Le bouton « Téléphone » ouvre la fiche même si l’identifiant de l’employé contient des espaces ou des accents.",
+    "Connexion au serveur. Global Gestion affiche la raison donnée par le serveur lorsqu’une action est refusée. Une vérification faite sur le PC seul ne retire plus le bandeau « Hors ligne ».",
+    "Consultations. Si la connexion se coupe brièvement, le logiciel fait un deuxième essai, y compris lorsque le premier essai échoue dès l’ouverture de la connexion.",
+    "Rapidité. Après une pause, Global Gestion reprend sa connexion au serveur au lieu d’en ouvrir une nouvelle : le premier clic répond plus vite.",
+    "Enregistrement. Si la réponse du serveur se perd, Global Gestion ne renvoie pas l’action. Le logiciel invite à vérifier qu’elle a été enregistrée avant de réessayer."
   ],
-  "code_url": "https://github.com/NexVandal/GlobalTrack_Update/releases/download/v1.0.6/Global_Gestion_Code_1.0.6.zip",
-  "code_size": 2706378,
-  "code_sha256": "a6f6499f15c1fd5449c373ee04aefa37126e8c93746a21cf32fb3f39284eab4c",
+  "code_url": "https://github.com/NexVandal/GlobalTrack_Update/releases/download/v1.0.7/Global_Gestion_Code_1.0.7.zip",
+  "code_size": 2708954,
+  "code_sha256": "ee8fab3285b8a0a77c00e1f5e8d7f2c4ca450e8b16821a990b7adac69c731bea",
   "socle": "c04762fe03155c61ac3af16ccbca68be256fca672ac6314ea4f2c3e745402c9c"
 }
